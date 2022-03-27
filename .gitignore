@@ -1,0 +1,11 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+.idea/*
+node_modules/*
+logs/*
+build/*
+.vs/*
+src/config/production.js
+.env*
+!.env.example
+uploads/*
+.DS_Store
