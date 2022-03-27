@@ -1,0 +1,37 @@
+{
+  "name": "api-upload-to-s3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --require ts-node/register src/main.ts",
+    "dev": "nodemon --watch src/**/*.ts --ignore src/**/*.spec.ts --exec ts-node src/main.ts",
+    "test": "echo \\\"Error: no src/test specified\\\" && exit 1",
+    "build": "tsc",
+    "serve": "node build/main.js",
+    "lint": "tslint --fix -c ./tslint.json src/**/*{.ts,.tsx}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ductnn/api-upload-to-s3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ductnn/api-upload-to-s3/issues"
+  },
+  "homepage": "https://github.com/ductnn/api-upload-to-s3#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1101.0",
+    "busboy": "^1.5.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
