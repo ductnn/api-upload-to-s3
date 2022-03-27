@@ -16,7 +16,7 @@
     "url": "git+https://github.com/ductnn/api-upload-to-s3.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "ductnn",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ductnn/api-upload-to-s3/issues"
