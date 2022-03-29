@@ -6,9 +6,9 @@
 
 <p align="center">
     <img src="./assets/node-s3.png">
+    <br>
+    <p>Upload files to AWS S3 using simple API server with Nodejs by the hard way.</p>
 </p>
-
-Upload files to AWS S3 using simple API server with Nodejs by the hard way.
 
 ## Project structure
 
