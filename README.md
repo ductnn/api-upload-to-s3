@@ -84,6 +84,13 @@ Running service:  undefined
 🚀 Server started as undefined at http://localhost:5000
 ```
 
+Open url `127.0.0.1:5000` on browser to view result or use `curl`:
+
+```sh
+➜  api-upload-to-s3 git:(master) ✗ curl 127.0.0.1:5000
+<h3>Build API Server for upload files to AWS S3</h3>
+```
+
 Then, we use **Postman** with method `PUT` in `127.0.0.1:5000/s3/upload` to 
 upload files.
 

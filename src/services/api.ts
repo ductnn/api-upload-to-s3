@@ -2,12 +2,13 @@ import * as fs from 'fs';
 import * as https from 'https';
 import express, { Application } from "express"
 
-import { s3Route } from "../routes"
+import { s3Route, defaultRoute } from "../routes"
 import { config } from "../config"
 
 
 // --- Setup router
 const setupRouter = (app: Application) => {
+    defaultRoute(app)
     s3Route(app)
 };
 
