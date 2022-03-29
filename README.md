@@ -72,11 +72,20 @@ Install the dependencies:
 npm install
 ```
 
-Finally, run API and use postman with method `PUT` for upload to AWS S3:
+Start API Server woth command `npm start`:
 
 ```sh
-npm start
+➜  api-upload-to-s3 git:(master) npm start 
+
+> api-upload-to-s3@1.0.0 start
+> node --require ts-node/register src/main.ts
+
+Running service:  undefined
+🚀 Server started as undefined at http://localhost:5000
 ```
+
+Then, we use **Postman** with method `PUT` in `127.0.0.1:5000/s3/upload` to 
+upload files.
 
 ### With Dockerfile
 
