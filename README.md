@@ -3,6 +3,11 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ductnn/api-upload-to-s3/pulls)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+
+<p align="center">
+    <img src="./assets/node-s3.png">
+</p>
+
 Upload files to AWS S3 using simple API server with Nodejs by the hard way.
 
 ## Project structure
