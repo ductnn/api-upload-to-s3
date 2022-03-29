@@ -7,7 +7,7 @@ Upload files to AWS S3 using simple API server with Nodejs by the hard way.
 
 ## Project structure
 
-Overview:
+**Overview**:
 
 ```sh
 .
@@ -19,7 +19,7 @@ Overview:
 └── ./tsconfig.json
 ```
 
-Detail:
+**Detail**:
 
 ```sh
 src
@@ -75,7 +75,7 @@ npm start
 
 ### With Dockerfile
 
-Easy to build API with [Dockerile](./Dockerfile):
+Easy to build API with [Dockerfile](./Dockerfile):
 
 ```sh
 # Build images
