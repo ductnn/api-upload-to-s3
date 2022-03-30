@@ -109,6 +109,9 @@ docker push <YOUR-DOCKER-ID>/api-upload-to-s3:v1
 docker run -itd -p 5000:5000 <YOUR-DOCKER-ID>/api-upload-to-s3:v1
 ```
 
+### Show your support
+Give a ⭐ if you like this application ❤️
+
 ## Contribution
 Contributions are more than welcome in this project!
 
